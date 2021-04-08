@@ -23,7 +23,7 @@ function greet(time){
   if(this_hour<12){
     console.log("Good Morning");
   }
-  else if(time>=12 && time <=17 ){
+  else if((this_hour > 12) && (this_minute<=59) ){
      console.log("Good Afternoon");
   }
   else if (time>17){
