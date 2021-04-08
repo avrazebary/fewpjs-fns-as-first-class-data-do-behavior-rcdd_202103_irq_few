@@ -12,8 +12,13 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 
 function greet(time){
- let hour = time[0];
- let minute = time.split(":");
+ let this_time = time.split(":");
+ let hour = this_time[0];
+ let minute = this_time[1];
+  
+ let this_hour = parseInt(hour);
+ let this_minute = parseInt(minute);
+ 
   
   if(time>=12){
     console.log("Good Morning");
