@@ -16,6 +16,6 @@ function greet(time){
   if(time>=12){
     console.log("Good Morning");
   }
-  else if(time>12 )
+  else if(time>=12 && time <= )
 }
 /* Write your implementation of displayMessage() */
