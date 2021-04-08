@@ -24,10 +24,10 @@ function greet(time){
     return "Good Morning";
   }
   else if((this_hour > 12) && (this_minute<17) && this_minute<01 ){
-     console.log("Good Afternoon");
+     return "Good Afternoon";
   }
   else if (time>17){
-    console.log("Good Evening");
+    return "Good Evening";
   }
 }
 /* Write your implementation of displayMessage() */
