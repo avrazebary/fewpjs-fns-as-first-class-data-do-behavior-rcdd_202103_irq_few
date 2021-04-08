@@ -12,7 +12,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 
 function greet(time){
- let hour = time.split(":");
+ let hour = time[0];
  let minute = time.split(":");
   
   if(time>=12){
