@@ -20,7 +20,7 @@ function greet(time){
  let this_minute = parseInt(minute);
  
   
-  if(time>=12){
+  if(this_hour<12){
     console.log("Good Morning");
   }
   else if(time>=12 && time <=17 ){
